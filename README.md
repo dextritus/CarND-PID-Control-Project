@@ -19,7 +19,7 @@ The equation used was:
 throttle = 0.2 + (1.0 - abs(steer_angle))*(0.8 - 0.2)
 ```
 
-With this tuning, the car reaches a top speed between 79-80 mph while still staying on track (although it makes some really sharp turns). 
+With this tuning, the car reaches a top speed between 78-80 mph while still staying on track (although it makes some very sharp turns). 
 
 ## Considerations
 * A nonlinear mapping betwen throttle and steering wheel would have probably been better, reducing the speed even more drastically in very sharp turns, but not so much in wider turns. 
