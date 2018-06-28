@@ -7,7 +7,7 @@ The chosen parameters were:
 
 * proportional control gain: **-0.15**
 * integral control gain: **0**
-* differential control gain: **-5.5**
+* differential control gain: **-4.5**
 
 This provided a good balance between steering power and damping, even at higher speeds. The gain for the integral control was left to 0, since no bias seemed to be present in the steering control action. Also, I tried very small valus and the car seemed to start drifting. 
 
