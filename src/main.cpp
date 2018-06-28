@@ -36,7 +36,7 @@ int main(int argc, char *argv[])
 
   double Kp_0 =  -0.15;
   double Ki_0 =   0.00;
-  double Kd_0 =  -5.50;
+  double Kd_0 =  -4.50;
 
   pid.Init(Kp_0, Ki_0, Kd_0);
 
